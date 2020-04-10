@@ -8,12 +8,12 @@
         "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\layout_demo_linear_layout.xml.flat",
-        "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\layout\\demo_linear_layout.xml"
+        "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_view_quote_layout.xml.flat",
+        "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\layout\\list_view_quote_layout.xml"
     },
     {
         "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -34,6 +34,10 @@
     {
         "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_black_24dp.xml.flat",
+        "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\drawable\\ic_star_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quotelist.xml.flat",
+        "source": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\src\\main\\res\\layout\\activity_quotelist.xml"
     },
     {
         "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\WorkspaceDay2\\GeekQuote\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",

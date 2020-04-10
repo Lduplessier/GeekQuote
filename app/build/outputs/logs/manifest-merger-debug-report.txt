@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
-INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
-INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
-INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
+ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\cccfd3c2b80d5fad1124ffebe28c3f3b\jetified-firebase-analytics-17.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\72755d8593c3ca1ed00b11907b10c688\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\10ddb5a7f44298deca40fafe6f4c087b\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:17:1-55:12
@@ -45,25 +45,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\lucas\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\dcf4af4213d59bd5fe489359c2b51b96\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\e5f4ab83b7154d8dd7689c213d4008f9\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\3ad98f043f0e278e1b4f445317842885\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
-INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
-INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
+INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:5-36
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:1-20:12
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:4:5-19:19
+ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\cccfd3c2b80d5fad1124ffebe28c3f3b\jetified-firebase-analytics-17.2.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\cccfd3c2b80d5fad1124ffebe28c3f3b\jetified-firebase-analytics-17.2.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\10ddb5a7f44298deca40fafe6f4c087b\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:28:5-53:19
@@ -101,35 +101,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\lu
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\lucas\.gradle\caches\transforms-2\files-2.1\f961a727fd6ff1bec6d760c391cc6822\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:7:9-41
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:6:9-43
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:5:9-35
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:10:9-40
-activity#fr.myschool.geekquote.activity.QuoteListActivity
-ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:11:9-17:20
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:11:9-40
+activity#fr.myschool.geekquote.activity.LoginActivity
+ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:11:19-61
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:12:19-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:12:13-16:29
+ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:16:27-74
 activity#fr.myschool.geekquote.activity.QuoteActivity
-ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:18:9-59
+ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:19:9-59
 	android:name
-		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:18:19-57
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:19:19-57
+activity#fr.myschool.geekquote.activity.QuoteListActivity
+ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:20:9-63
+	android:name
+		ADDED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml:20:19-61
 uses-sdk
 INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\lucas\AndroidStudioProjects\WorkspaceDay2\GeekQuote\app\src\main\AndroidManifest.xml

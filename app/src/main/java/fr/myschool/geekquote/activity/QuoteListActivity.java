@@ -1,98 +1,134 @@
 package fr.myschool.geekquote.activity;
 
+import androidx.annotation.NonNull;
+
+
 import android.app.Activity;
 import android.content.Intent;
+
+
+import android.content.SharedPreferences;
 import android.os.Bundle;
+
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-import fr.myschool.geekquote.R;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
+import fr.myschool.geekquote.R;
 import fr.myschool.geekquote.adapter.QuoteListAdapter;
 import fr.myschool.geekquote.model.Quote;
 
-public class QuoteListActivity extends Activity implements View.OnClickListener, AdapterView.OnItemClickListener {
+public class QuoteListActivity extends Activity  {
 
     public static final String TAG = "GeekQuote";
 
-    private ArrayList<Quote> quotes = new ArrayList<>();
-
+    private ArrayList<Quote> quoteList = new ArrayList<Quote>();
     private EditText et_main_quote;
     private Button bt_main_add;
-    private ListView lv_main_quotes;
-    private QuoteListAdapter quoteArrayAdapter;
-    private Bundle extras;
+    private LinearLayout ll_list_quotes;
+    private ListView lv_main_list;
+    private QuoteListAdapter quoteListAdapter;
+    private Button bt_logout;
+    private TextView rating;
+
+    private SharedPreferences pref;
+    private SharedPreferences.Editor editor;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-        if (extras != null) {
-            for (Quote q : this.quotes) {
-                if (q.getStrQuote() == extras.get("quoteStr")) {
-                    q.setRating((int) extras.get("quoteRating"));
-
-                }
-            }
-            extras.clear();
-        }
-
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_quotelist);
 
         et_main_quote = findViewById(R.id.et_main_quote);
         bt_main_add = findViewById(R.id.bt_main_add);
-        lv_main_quotes = findViewById(R.id.lv_main_quotes);
+        ll_list_quotes = (LinearLayout)findViewById(R.id.list_item);
+        lv_main_list = findViewById(R.id.lv_main_list);
+        rating = findViewById(R.id.rating);
+        bt_logout = findViewById(R.id.bt_logout);
 
-        bt_main_add.setOnClickListener(this);
-        lv_main_quotes.setOnItemClickListener(this);
+        quoteListAdapter = new QuoteListAdapter(this, quoteList);
+        lv_main_list.setAdapter(quoteListAdapter);
 
-        quoteArrayAdapter = new QuoteListAdapter(this, quotes);
 
-        lv_main_quotes.setAdapter(quoteArrayAdapter);
+        lv_main_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Object listItem = lv_main_list.getItemAtPosition(position);
+                Intent intent = new Intent(QuoteListActivity.this, QuoteActivity.class);
+                intent.putExtra("data", (Serializable) listItem);
+                startActivityForResult(intent, 0);
+            }
+        });
 
-        String[] initialQuotes = getResources().getStringArray(R.array.initial_quotes);
-        for(String s : initialQuotes) {
-            addQuote(s);
-        }
+        bt_main_add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                addQuotes(et_main_quote.getText().toString());
+            }
+        });
+
+        bt_logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editor.putBoolean("isLogged", false);
+                editor.apply();
+                Intent intent = new Intent(QuoteListActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
-
-    void addQuote(String strQuote) {
-        Quote quote = new Quote(strQuote);
-        quotes.add(0, quote);
-
-        //Toast.makeText(this, strQuote, Toast.LENGTH_SHORT).show();
-
-    }
-
-    public void onClick(View v) {
-        if(v == bt_main_add) {
-            String inputStr = et_main_quote.getText().toString();
-            addQuote(inputStr);
-            et_main_quote.getText().clear();
-        }
-    }
-
-
-    public void onItemClick(AdapterView<?> Parent, View view, int position, long id) {
-        String strQuote = quotes.get(position).getStrQuote();
-        int ratingQuote = quotes.get(position).getRating();
-
-        Intent intent = new Intent(this, QuoteActivity.class);
-        intent.putExtra("strquote", strQuote);
-        intent.putExtra("ratingquote", ratingQuote);
-        startActivity(intent);
+    protected void addQuotes(String quote) {
+        quoteList.add(0,new Quote(quote));
+        quoteListAdapter.notifyDataSetChanged();
+        et_main_quote.getText().clear();
     }
 
     @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        outState.putParcelableArrayList("quotes", quoteList);
+        super.onSaveInstanceState(outState);
+    }
 
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        ArrayList<Quote> retrivedQuotes = savedInstanceState.getParcelableArrayList("quotes");
+
+        quoteList.clear();
+        quoteList.addAll(retrivedQuotes);
+        quoteListAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (data != null && data.getExtras() != null) {
+            String strQuote = data.getExtras().getString("strQuote");
+            Float rating = data.getExtras().getFloat("rating");
+
+            for(int i=0 ; i<quoteListAdapter.getCount() ; i++){
+                Quote quote = quoteListAdapter.getItem(i);
+                if (quote.getStrQuote().equals(strQuote)) {
+                    Log.d(TAG, quote.getStrQuote() + " - " + strQuote);
+                    quote.setRating(rating);
+                    quoteListAdapter.notifyDataSetChanged();
+                }
+            }
+        }
     }
 }
