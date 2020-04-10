@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Geek Quotes Project</string>
+    <string name="str_main_title">List of Geek quotes</string>
+    <string name="bt_main_title">Add quote</string>
+    <string name="str_main_hint">Write a geek quote</string>
+    <string name="str_quote_layout_title">Single quote</string>
+
+    <string-array name="initial_quotes">
+        <item>I am your father</item>
+        <item>You shall not pass</item>
+        <item>Hello do you want to see my layout?</item>
+    </string-array>
+</resources>
